@@ -2,7 +2,6 @@ import next from "next";
 import "@/styles/header/promotionalHeader.css";
 export default function PromotionalHeader() {
     return (
-        <div>
             <div className="promotionalHeader">
                 <div className="promotionalText">
                     <div className="headerContent">
@@ -11,6 +10,5 @@ export default function PromotionalHeader() {
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
