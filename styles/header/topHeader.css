@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topHeader {
+    width: 100%;
+    min-height: 1.5rem;
+    background-color: #000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: start;
+}
+
+.topLeftHeaderContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 6px 0px 6px 0px;
+
+}
+
+.topRightHeaderContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Cabin', sans-serif;
+    gap: 15px;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.dropDown {
+    font-size: 12px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+
+.delivering {
+    font-size: 9px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.location {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.changeLocation {
+    font-size: 8px;
+    text-decoration: underline;
+    font-family: 'Cabin', sans-serif;
+    cursor: pointer;
+    margin-left: 6px;
+    margin-top: 12px;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    border-left: 1px solid #555555;
+    padding-left: 20PX;
+}
+
+.locationIcon {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.store {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactUs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    Border-left: 1px solid #555555;
+    padding-left: 15px;
+}
+
+.contactUs svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    Border-left: 1px solid #555555;
+    padding-left: 15px;
+}
+
+.login svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.wishlist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    Border-left: 1px solid #555555;
+    padding-left: 15px;
+}
+
+.wishlist svg {
+    width: 30px;
+    height: 30px;
+}
+
+.moreBrands {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    Border-left: 1px solid #555555;
+    padding-left: 15px;
+}
+
+.moreBrands {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cart svg {
+    width: 30px;
+    height: 30px;
+}
+
+.store svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.moreBrands svg {
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+    stroke-width: 3.5;
+}
+
+.chevronIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+    font-family: 'Cabin', sans-serif;
+}
+
+/* @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .topLeftHeaderContent {
+        gap: 20px;
+    }
+
+    .moreBrands {
+        margin-left: 15px;
+    }
+} */

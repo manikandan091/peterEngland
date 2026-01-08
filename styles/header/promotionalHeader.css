@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.promotionalHeader {
+  width: 100%;
+  min-height: 56.1px;
+  background-color: #00734A;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  padding: 9px 100px 9px 100px;
+}
+
+.promotionalHeader p {
+  font-size: 14px;
+  font-family: lato, sans-serif;
+}
+
+.promotionalText {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.headerContent {
+  white-space: nowrap;
+  animation: runningText 30s linear infinite;
+}
+
+@keyframes runningText {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* @media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .promotionalHeader {
+    padding: 9px 20px 9px 20px;
+  }
+} */
