@@ -5,15 +5,15 @@
 }
 
 .promotionalHeader {
-  width: 100vw;
-  min-height: 56.1px;
+  width: 100%;
+  height: 56.1px;
   background-color: #00734A;
   color: #FFFFFF;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: start;
-  padding: 9px 100px 9px 100px;
+  padding: 9px 5%;
   overflow: hidden;
 }
 
@@ -42,4 +42,3 @@
     transform: translateX(-100%);
   }
 }
-
